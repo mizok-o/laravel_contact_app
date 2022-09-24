@@ -9,11 +9,9 @@
 </head>
 
 <body>
-    <h1>Contact App</h1>
+    <h1>Contact App show</h1>
     <div>
-        <a href='{{route('contacts.index') }}'>All Contacts</a>
-        <a href='{{route('contacts.show', 1) }}'>create Contacts</a>
-        <a href='{{route('contacts.create') }}'>show Contacts</a>
+        <p> {{ $datum['name'] }} </p>
     </div>
 </body>
 
